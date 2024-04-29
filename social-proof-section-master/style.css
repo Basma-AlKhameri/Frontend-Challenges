@@ -1,0 +1,104 @@
+* {
+    font-family: 'League Spartan', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.sec1{
+    padding-left: 90px;
+    width: 450px;
+    height: 100px;
+    position: absolute;
+    top: 90px;
+    left: 90px;
+}
+.title h1{
+    font-size: 50px;
+    font-weight:bolder;
+    color:  hsl(300, 43%, 22%);
+}
+.title p{
+color: hsl(303, 10%, 53%);
+margin-top: 20px;
+}
+
+.rating1{
+    top: 120px;
+    right: 150px;
+}
+.rating2{
+    top: 170px;
+    right: 100px;
+
+}.rating3{
+    top: 220px;
+    right: 70px;
+}
+.rating1, .rating2, .rating3{
+    display: flex;
+    background-color: hsl(300, 24%, 96%);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 30px;
+    margin: 10px;
+    position: absolute;
+}
+
+.R-pargraph{
+    padding-left: 25px;
+    color:  hsl(300, 43%, 22%);
+font-weight: 600;
+font-size: 16px;
+align-self: baseline;
+}
+
+
+.card1{
+    top: 350px;
+    left: 100px;
+}
+.card2{
+    top: 370px;
+    left: 475px;
+}
+.card3{
+    top: 390px;
+    right: 65px;
+}
+.card1, .card2,.card3{
+    background-color: hsl(300, 43%, 22%);
+    position: absolute;
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.profile{
+    display: flex;
+    margin: 25px;
+    color: white;
+    height: 50px;
+
+}
+.profile img{
+border-radius: 50%;
+height: 40px;
+
+}
+.name{
+    margin-left: 20px;
+}
+.name p:nth-child(2){
+color: hsl(333, 80%, 67%);
+padding-top: 5px;
+}
+.comment{
+       color: white;
+    margin-left: 25px;
+    margin-right: 25px;
+    line-height: 20px;
+
+}
+
